@@ -55,7 +55,7 @@ function PokemonList() {
       <h3 className="listname" style={{color:"#AE445A"}}>Pokemon List</h3>
       <hr />
       <div className="pokeList">
-          {(isLoading)?'Loading...' : 
+          {(isLoading)?<h2>Loading.....</h2> : 
           pokemonList.map((pokemon) => 
             <Pokemon key={pokemon.id} name={pokemon.name} image={pokemon.image} types={pokemon.types} />
           )}
