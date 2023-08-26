@@ -1,0 +1,30 @@
+.pokemonList-wrapper{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin: 1rem 0;
+
+}
+.listname{
+    display: flex;
+    justify-content: center;
+    font-size: 2rem;
+    color: #252525;
+    text-transform: uppercase;
+    margin: 10px;
+    letter-spacing: 5px;
+}
+hr{
+    width: 100%;
+    height: 2px;
+    background-color: #252525;
+    border: none;
+    margin: 10px 0;
+}
+.pokeList{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 2.5rem;
+    margin: 0 auto;
+}
