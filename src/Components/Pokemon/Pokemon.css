@@ -9,10 +9,20 @@
     width: auto;
     height: auto;
 }
+.pokemon:hover{
+    transform: scale(1.1);
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+    background-color: antiquewhite;
+}
+.Link{
+    text-decoration: none;
+    color: #112233;
+}
 .img{
     width: 200px;
     height: 200px;
-    margin: 0 auto;
+    margin: 0 20px;
 }
 .pokelists{
     display: flex;

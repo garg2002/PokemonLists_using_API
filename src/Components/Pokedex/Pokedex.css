@@ -4,14 +4,7 @@
     box-sizing: border-box;
     
 }
-.pokename{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 3rem;
-    color: #fff;
-    text-shadow: 2px 2px 4px #000000;
-}
+
 
 
 
