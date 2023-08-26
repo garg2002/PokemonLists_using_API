@@ -28,3 +28,34 @@ hr{
     grid-gap: 2.5rem;
     margin: 0 auto;
 }
+.btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    color: #fff;
+    text-shadow: 2px 2px 4px #000000;
+}
+button{
+    width: 100px;
+    height: 50px;
+    background-color: #fff;
+    border: none;
+    border-radius: 10px;
+    margin: 10px;
+    cursor: pointer;
+    font-size: 1rem;
+    color: #187da8;
+    text-transform: uppercase;
+    font-weight: bold;
+    box-shadow: 2px 2px 4px #000000;
+
+}
+.btn1:hover{
+    color: #ca3d44;
+    border: rgb(31, 114, 197) 2px solid;
+}
+.btn2:hover{
+    color: #d94f4f;
+    border:rgb(31, 114, 197) 2px solid;
+}

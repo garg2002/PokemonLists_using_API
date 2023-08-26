@@ -9,6 +9,7 @@ function Pokedex()
                 <h1 className='pokename'>Pokemon</h1>
                 <Search />
                 <PokemonList />
+                
         </>
     ) 
 }
