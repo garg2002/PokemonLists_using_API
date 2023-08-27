@@ -48,18 +48,15 @@ hr{
     color: #fff;
     text-shadow: 2px 2px 4px #000000;
 }
-button{
-    width: 100px;
+.btn .btn1, .btn2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:  100px;
     height: 50px;
-    background-color: #fff;
-    border: none;
+    margin: 10px;
     border-radius: 10px;
-    margin: 20px;
     cursor: pointer;
-    font-size: 1rem;
-    color: #187da8;
-    text-transform: uppercase;
-    font-weight: bold;
-    box-shadow: 2px 2px 4px #000000;
-
+    font: 1rem sans-serif;
+    transition: all 0.2s ease-in-out;
 }

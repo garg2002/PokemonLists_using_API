@@ -61,12 +61,8 @@ function PokemonList() {
           )}
       </div>
       <div className="btn">
-                    <button disabled={prevUrl == null}
-                    onClick={()=>setPokedexUrl(prevUrl)}
-                     className="btn1">Prev</button>
-                    <button disabled={nextUrl == null}
-                    onClick={()=>setPokedexUrl(nextUrl)}
-                    className="btn2">Next</button>
+                    <button disabled={prevUrl == null} onClick={()=> setPokedexUrl(prevUrl)} className="btn1">Prev</button>
+                    <button disabled={nextUrl == null} onClick={()=> setPokedexUrl(nextUrl)} className="btn2">Next</button>
                 </div>
     </div>
   );
